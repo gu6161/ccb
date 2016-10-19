@@ -1,0 +1,10 @@
+{"name":"configserver",
+"profiles":["application.properties"],
+"label":"master",
+"propertySources":[{"name":"https://github.com/xuminwlt/config-repo/application.properties",
+	                 "source":{"info.description":"J360 Cloud App",
+		                "apply.message":"message from git version 11",
+		                "user.username":"xumin from git version 6",
+		                "info.url":"https://github.com/xuminwlt/j360-cloud"}}
+	               ]
+}
